@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CS OutCrowd</title>
+        
+        <!-- Scripts -->
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>        
+        <script src="js/jquery.scrollstop.js"></script>
+		<script src="js/jquery.scrollsnap.js"></script>
+        <script src="js/modernizr.custom.71715.js"></script>
+        
+        <!-- Styles and Fonts -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Slabo+27px|Play' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    </head>
+    
+    <body>
+    	<header>
+			<div id="site_header">
+            	<div id="logo">
+                	<a id="logo_link" href="index.html" alt="CS Out Crowd">
+                    	<canvas id="logo_canvas">Your browser does not support HTML5 canvas</canvas>	
+                    </a>
+                </div><!-- end #logo -->
+                
+                <nav>
+                	<button title="Home" class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="index.html" title="Home" alt="Home">
+                    		<span class="ui-button-text">Home</span>
+                        </a>
+                    </button>
+                	<button title="videos" class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="videos.html" title="Video Gallery" alt="Video Gallery">
+                    		<span class="ui-button-text">VODs</span>
+                        </a>
+                    </button>
+                    <button title="images" class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="images.html" title="Image Gallery" alt="Image Gallery">
+                        	<span class="ui-button-text">Snapshots</span>
+                        </a>
+                    </button>
+                    <button title="tips" class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="tips.html" title="Tips & Tricks" alt="Tips and Tricks">
+                        	<span class="ui-button-text">Tips & Tricks</span>
+                        </a>
+                    </button>
+                    <button title="strats" class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="strats.html" title="Strat Map Editor" alt="Strat Map Editor">
+                    		<span class="ui-button-text">Strat Editor</span>
+                        </a>
+                    </button>
+                    <button title="about"class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="about.html" title="About CS OutCrowd" alt="About CS OutCrowd">
+                    		<span class="ui-button-text">About</span>
+                        </a>
+                    </button>
+                </nav><!-- end nav -->
+            
+            </div><!-- end #site_header -->
+            
+        </header><!-- end header -->
+        
+    	<div id="content">
+   	    	<section data-section-name="about" id="panel-about" class="snap home-panel">
+           		<h2>What is CS OutCrowd?</h2>
+                <p style="text-align: left;display: block;float:left">CS OutCrowd is a <a href="http://www.twitch.tv/CSoutcrowd" target="_blank" title="www.twitch.tv/csoutcrowd">Twitch</a> channel dedicated to <a href="http://www.counter-strike.net" target="_blank" title="www.counter-strike.net">Counter-Strike: Global Offensive</a>. &nbsp;Managed and played by "Lumi", the channel is dedicated to providing professional CS experience to all viewers and players alike, no matter what skill level.</p><br>
+                <p style="text-align: right;display:block;clear:both;float:right;">CS OutCrowd is all about bringing a strong, positive attitude to the CS Community, while expanding its player base and collective skill level. &nbsp;So check out the stream LIVE or catch up on the action you've missed, and get back into CS:GO.</p>
+                
+            </section><!-- end panel -->
+        
+   	  		<section data-section-name="videos" id="panel-videos" class="snap home-panel">
+            	<h2>Watch CS OutCrowd's "Lumi" in Action</h2>
+                <div class="panel-col">
+                	<video controls poster="images/csoutcrowd_banner.jpg">
+                    	<source src="vods/cache_1v5_hs_ace.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+                <div class="panel-col">
+					<p>CS OutCrowd's #1 is David"Luminaire" Helmken, a long time Counter-Strike veteran, who has a long history in the competetive scene of CS.  With an entertaining twist on a serious game, Lumi is not only a beast in game, he brings a fully charged, positive attitude to the community.</p>  
+                    <p><em>Watch highlights, gameplay footage, streams, giveaways, and more!</em></p>
+                    <button title="Go to Videos" class="panel-btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="videos.html" title="Go to Videos" alt="Go to Videos">
+                        	<span class="ui-button-text">View VODS</span>
+                        </a>
+                    </button>
+                </div>
+                
+            </section><!-- end panel -->
+            
+      		<section data-section-name="images"id="panel-images" class="snap home-panel">
+            	<h2>Snapshots</h2>
+                <div class="panel-col">
+                    <img class="img" alt="Gameplay Image" title="Skyrim Gameplay" src="http://cloud-4.steamusercontent.com/ugc/648747633994284652/0B0D91C2CC59F1D0C33B24F15FF11E0A624EA3B0/">
+                </div>
+                <div class="panel-col">
+                	<p>Everyone has had those moments in a game where something crazy has happened.  Glitched physics, broken links, or whatever mishaps players find in games, its great to get a screencap and show it off to the world.  Here you can find some of the best moments from Lumi's play.</p>
+                    <button title="Go to Gallery" class="panel-btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="images.html" title="Go to Gallery" alt="Go to Gallery">
+                        	<span class="ui-button-text">View Snapshots</span>
+                        </a>
+                    </button>
+                </div>
+            </section><!-- end panel -->
+            
+      		<section data-section-name="tips" id="panel-tips" class="snap home-panel">
+            	<h2>Tips & Tricks</h2>
+                <div class="panel-col">
+                	<p>Let’s face it, most of us watching CSGO love the game, but not all of us are professional gamers. Pro streams do a lot to provide tips and tricks on gameplay, but here, Lumi is looking to help people of <em>all</em> skill levels improve.</p>
+                    <p>In these videos you can expect a high level (though imperfect) of play, suggestions for all types of grenades, camping spots, aim, spray control and tactical decisions.</p>
+                    <button title="See Tips & Tricks" class="panel-btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="tips.html" title="See Tips" alt="See tips">
+                        	<span class="ui-button-text">Learn CSGO</span>
+                        </a>
+                    </button>
+                </div>
+            </section><!-- end panel -->
+            
+      		<section data-section-name"strats" id="panel-strats" class="snap home-panel">
+            	<h2>Strat Map Editor</h2>
+                <div class="strat-info">
+                	<p>Strategy is crucial to Counter-Strike, and without it your team will almost certainly fail (unless Matchmaking does its job poorly).  It can be difficult to get your ideas across to your teammates, so try using a Strat Map Editor.  Get the map overviews and draw your own strats right on the map!
+                    </p>
+                    <button title="Build Strats" class="panel-btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="strats.html" title="Build Strats" alt="See tips">
+                        	<span class="ui-button-text">Build Strats</span>
+                        </a>
+                    </button>
+                </div>
+                <div class="strat-map">
+                	<a href="http://bc-gb.com/wp-content/uploads/2014/02/de_dust2.png" target="_blank" title="De_Dust2">
+                		<img class="img" alt="de_dust2 Map" title="De_Dust2" src="http://bc-gb.com/wp-content/uploads/2014/02/de_dust2.png">
+                    </a>
+                </div>
+            </section><!-- end panel -->
+            
+            
+            <div id="toplink">
+            	<a href="#content" title="Back to Top" alt="Back to Top">Back to Top</a>
+            </div><!-- end #toplink -->
+            
+    </div><!-- end #content -->
+    	<!-- Load main.js -->
+    <script src="js/sketch.js"></script>    
+    <script src="js/main.js"></script>
+    </body>
+</html>

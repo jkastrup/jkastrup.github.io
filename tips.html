@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CS OutCrowd</title>
+        
+        <!-- Scripts -->
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>        
+        <script src="js/jquery.scrollstop.js"></script>
+		<script src="js/jquery.scrollsnap.js"></script>
+        <script src="js/modernizr.custom.71715.js"></script>
+        
+        <!-- Styles and Fonts -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.structure.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui.theme.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Slabo+27px|Play' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    
+    </head>
+    
+    <body>
+    	<header>
+			<div id="site_header">
+            	<div id="logo">
+                	<a id="logo_link" href="index.html" alt="CS Out Crowd">
+                    	<canvas id="logo_canvas">Your browser does not support HTML5 canvas</canvas>	
+                    </a>
+                </div><!-- end #logo -->
+                
+                <nav>
+                	<button title="Home" class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="index.html" title="Home" alt="Home">
+                    		<span class="ui-button-text">Home</span>
+                        </a>
+                    </button>
+                	<button title="videos" class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="videos.html" title="Video Gallery" alt="Video Gallery">
+                    		<span class="ui-button-text">VODs</span>
+                        </a>
+                    </button>
+                    <button title="images" class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="images.html" title="Image Gallery" alt="Image Gallery">
+                        	<span class="ui-button-text">Snapshots</span>
+                        </a>
+                    </button>
+                    <button title="tips" class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="tips.html" title="Tips & Tricks" alt="Tips and Tricks">
+                        	<span class="ui-button-text">Tips & Tricks</span>
+                        </a>
+                    </button>
+                    <button title="strats" class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="strats.html" title="Strat Map Editor" alt="Strat Map Editor">
+                    		<span class="ui-button-text">Strat Editor</span>
+                        </a>
+                    </button>
+                    <button title="about"class="navbtn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                    	<a href="about.html" title="About CS OutCrowd" alt="About CS OutCrowd">
+                    		<span class="ui-button-text">About</span>
+                        </a>
+                    </button>
+                </nav><!-- end nav -->
+            
+            </div><!-- end #site_header -->
+            
+        </header><!-- end header -->
+        
+    	<div id="content">
+        
+        	<div class="tip-info">
+            	<h2>Tips & Tricks</h2>
+                <p>There is no direct guide on how to be good or how to win in CSGO.  Every game and every round is unique.  But, there are certain things every player should be aware of: game mechanics, gear, play styles, gun recoil and spray pattern, map knowledge and camp locations, and many more.  </p>
+				<p>CS OutCrowd is here to entertain but also to teach.  Many of these ideas are part of a well-known Meta in CSGO that has been developing since 1999, and have become a staple in the competitive world of CS.  That being said, many of these ideas can be abstract, so don't get frustrated if it takes some time to implement in your gameplay.</p>
+            	<p><em><small>If you don't like reading, just check out the streams or VODs, and ask Lumi for help personally!</small></em></p>
+            </div><!-- end .tip-info -->
+            
+   	    	<div class="tip-container">
+                    <button href="" title="Show Tip" class="tip-btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                			<span title="Show Tip" class="ui-button-text fa fa-arrow-circle-o-down"></span>
+                    </button>
+                    <h2 id="gear">Gear</h2>
+                    
+                    <div class="tip">
+                       <p>Not the in-game gear, but YOUR gear.  Your PC accessories matter, a lot, so much in fact those professional CS players bring their own mice and keyboards to LAN competitions.  It mostly comes down to personal preference, but comfort is your best friend here.  Keyboards and mice are mostly personal preference; just make sure you know what your devices are capable of. </p>
+                       <p>One of the most crucial pieces of gear is your headset.  That's right, a headset, not speakers.  Sound is 50% of your sight in CS, and your sound device needs to be able to relay to you the game sounds as well as possible.  If you decide to spend any money on your PC accessories, make it on this one.  Sound is multidirectional in CS, meaning it is perfectly designed to help you determine where that sound is coming from.  Without the proper gear, the game will play to you in stereo, or heaven forbid mono, which will completely halt your ability to find players using sound.</p>
+                   </div><!-- end .tip -->                
+            </div><!-- end .tip-container -->
+            
+            <div class="tip-container">
+                	<button title="Show Tip" class="tip-btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                		<span title="Show Tip" class="ui-button-text fa fa-arrow-circle-o-right"></span>
+                    </button>
+                    <h2>Movement</h2>
+                    
+                    <div class="tip">
+                       <p>Movement in the game is obviously inredibly important, but there are a lot of abstract concepts to learn in order to master movement in CS:GO.  'Surf_' and 'kz_' maps will be a great way to learn how players can move throughout the game and some pretty neat tricks along the way.  Focus on strafing (moving left and right), when to run, when to walk, and even how and where to jump to effectively get better positioning on your enemy.</p>
+                       <p>Being able to out manuever your oppenent is a great path to  success.  But manuevering doesn't just cover motion, it is also about knowing when to stop.  Walking and sitting still can be a vital tool in your aresenal.  Being stealthy and not giving away your position can keep you alive, and net you plenty of kills for your team.  Use sound to your advantage, so you know when it is safe to run, when you should probably hold your position, and especially when you should back away.</p>
+                   </div><!-- end .tip -->                
+            </div><!-- end .tip-container -->
+            
+            <div class="tip-container">
+                	<button title="Show Tip" class="tip-btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                		<span title="Show Tip" class="ui-button-text fa fa-arrow-circle-o-right"></span>
+                    </button>
+                    <h2>Warm-Up</h2>
+                    
+                    <div class="tip">
+                       <p>Warm-up is a must before you enter into competitive mode of CS:GO.  I recommend you to search for a good casual or death match server, play for about 30-40 minutes, and then take the dive into competitive mode.  Playing in these servers will help work on aim, positioning, recoil control, and general knowledge of the game.  It will also get your hands loose and comfortable, well before you decide to start playing competitively.  </p>
+                	</div><!-- end .tip -->
+            </div><!-- end .tip-container -->
+            
+            <div class="tip-container">
+                	<button title="Show Tip" class="tip-btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                		<span title="Show Tip" class="ui-button-text fa fa-arrow-circle-o-right"></span>
+                    </button>
+                    <h2>Map Knowledge</h2>
+                    
+                    <div class="tip">
+                       <p>Learning all of the maps is definitely crucial to being successful in professional CS, but seeing as you can pick what maps you want to play in competitive, it may not be as big of a deal as some players may have you believe.  However, on the maps you do play, knowing all there is to know about the map is a must.  The best way to do this is to just play. Play, play, and play.  Take notice of where others play at on the map, what corners they are watching, and even how they move through the map.</p>
+
+						<p>Along with competitive maps, there are plenty of user made maps that can help you in many facets of the game.  Notable mentions are 'aim_', where players hone in on mid-to-long range controlled fire, 'kz_', where players practice player movement through movement oriented stages (no shooting), and 'surf_', another move oriented map that helps players learn the size of their character and how they can move and interact with the environment.  They may seem a bit absurd at first, but mastering these fundamentals of game mechanics will reflect in your gameplay.  All of these map styles have varying degrees of difficulties that will take some time to master.</p>
+					</div><!-- end .tip -->
+            </div><!-- end .tip-container -->
+            
+            <div class="tip-container">
+                	<button title="Show Tip" class="tip-btn ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+                		<span title="Show Tip" class="ui-button-text fa fa-arrow-circle-o-right"></span>
+                    </button>
+                    <h2>Gun Control</h2>
+                    
+                    <div class="tip">
+						<p>Proper in-game gun control can take quite a while to master, but seasoned FPS players are sure to get the hang of it.  Recoil in CS is very different from most modern FPS games.  The effects of rapid-fire recoil can be devastating to your accuracy, so its important to learn how to shoot controlled bursts, as well as learning how to handle fully automatic fire.  Check out some "aim_" maps to hone in on your rifle skills.  These maps will help teach you the shoot mechanics of the game, and how to manipulate them to your advantage.  </p>
+
+				</div><!-- end .tip -->
+            </div><!-- end .tip-container -->
+            
+    </div><!-- end #content -->
+    
+    <div id="toplink">
+    	<a href="#content" title="Back to Top" alt="Back to Top">Back to Top</a>
+    </div><!-- end #toplink -->
+        
+    <footer>
+        <div class="footer-info">
+            <a class="footer-link" href="http://twitch.tv/csoutcrowd" alt="Twitch.tv/CsoutCrowd" title="Go to Twitch.tv/CSOutCrowd">
+                <p class="fa fa-twitch">&nbsp;&nbsp;CS OutCrowd on Twitch</p>
+            </a>
+            <a class="footer-link" href="http://steamcommunity.com/id/luminayre" alt="Lumi Steam" title="Go to Lumi's Steam Profile">
+                <p class="fa fa-steam">&nbsp;&nbsp;Lumi's Steam Profile</p>
+            </a>
+            <a class="footer-link" href="https://www.twitchalerts.com/donate/csoutcrowd" alt="Donate to CSOutCrowd" title="Donate to CSOutCrowd">
+                <p class="fa fa-dollar">&nbsp;&nbsp;Donate to CS OutCrowd</p>
+            </a>
+        </div><!-- end .footer-info -->
+    </footer><!-- end footer -->
+    
+    
+    	<!-- Load main.js -->
+        <script src="js/sketch.js"></script> 
+    <script src="js/main.js"></script>
+    </body>
+</html>
